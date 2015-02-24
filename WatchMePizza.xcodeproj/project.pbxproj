@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CECC74671A9D1D49003D89BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC74661A9D1D49003D89BF /* AppDelegate.swift */; };
+		CECC74691A9D1D49003D89BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC74681A9D1D49003D89BF /* ViewController.swift */; };
+		CECC746C1A9D1D49003D89BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECC746A1A9D1D49003D89BF /* Main.storyboard */; };
+		CECC746E1A9D1D49003D89BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECC746D1A9D1D49003D89BF /* Images.xcassets */; };
+		CECC74711A9D1D49003D89BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECC746F1A9D1D49003D89BF /* LaunchScreen.xib */; };
+		CECC747D1A9D1D4A003D89BF /* WatchMePizzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC747C1A9D1D4A003D89BF /* WatchMePizzaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CECC74771A9D1D4A003D89BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECC74591A9D1D49003D89BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECC74601A9D1D49003D89BF;
+			remoteInfo = WatchMePizza;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CECC74611A9D1D49003D89BF /* WatchMePizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchMePizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECC74651A9D1D49003D89BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECC74661A9D1D49003D89BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CECC74681A9D1D49003D89BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CECC746B1A9D1D49003D89BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CECC746D1A9D1D49003D89BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CECC74701A9D1D49003D89BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CECC74761A9D1D4A003D89BF /* WatchMePizzaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchMePizzaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECC747B1A9D1D4A003D89BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECC747C1A9D1D4A003D89BF /* WatchMePizzaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchMePizzaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECC745E1A9D1D49003D89BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECC74731A9D1D4A003D89BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CECC74581A9D1D49003D89BF = {
+			isa = PBXGroup;
+			children = (
+				CECC74631A9D1D49003D89BF /* WatchMePizza */,
+				CECC74791A9D1D4A003D89BF /* WatchMePizzaTests */,
+				CECC74621A9D1D49003D89BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CECC74621A9D1D49003D89BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECC74611A9D1D49003D89BF /* WatchMePizza.app */,
+				CECC74761A9D1D4A003D89BF /* WatchMePizzaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECC74631A9D1D49003D89BF /* WatchMePizza */ = {
+			isa = PBXGroup;
+			children = (
+				CECC74661A9D1D49003D89BF /* AppDelegate.swift */,
+				CECC74681A9D1D49003D89BF /* ViewController.swift */,
+				CECC746A1A9D1D49003D89BF /* Main.storyboard */,
+				CECC746D1A9D1D49003D89BF /* Images.xcassets */,
+				CECC746F1A9D1D49003D89BF /* LaunchScreen.xib */,
+				CECC74641A9D1D49003D89BF /* Supporting Files */,
+			);
+			path = WatchMePizza;
+			sourceTree = "<group>";
+		};
+		CECC74641A9D1D49003D89BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CECC74651A9D1D49003D89BF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CECC74791A9D1D4A003D89BF /* WatchMePizzaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CECC747C1A9D1D4A003D89BF /* WatchMePizzaTests.swift */,
+				CECC747A1A9D1D4A003D89BF /* Supporting Files */,
+			);
+			path = WatchMePizzaTests;
+			sourceTree = "<group>";
+		};
+		CECC747A1A9D1D4A003D89BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CECC747B1A9D1D4A003D89BF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECC74601A9D1D49003D89BF /* WatchMePizza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECC74801A9D1D4A003D89BF /* Build configuration list for PBXNativeTarget "WatchMePizza" */;
+			buildPhases = (
+				CECC745D1A9D1D49003D89BF /* Sources */,
+				CECC745E1A9D1D49003D89BF /* Frameworks */,
+				CECC745F1A9D1D49003D89BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatchMePizza;
+			productName = WatchMePizza;
+			productReference = CECC74611A9D1D49003D89BF /* WatchMePizza.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CECC74751A9D1D4A003D89BF /* WatchMePizzaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECC74831A9D1D4A003D89BF /* Build configuration list for PBXNativeTarget "WatchMePizzaTests" */;
+			buildPhases = (
+				CECC74721A9D1D4A003D89BF /* Sources */,
+				CECC74731A9D1D4A003D89BF /* Frameworks */,
+				CECC74741A9D1D4A003D89BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECC74781A9D1D4A003D89BF /* PBXTargetDependency */,
+			);
+			name = WatchMePizzaTests;
+			productName = WatchMePizzaTests;
+			productReference = CECC74761A9D1D4A003D89BF /* WatchMePizzaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECC74591A9D1D49003D89BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Vinny Fiore Apps";
+				TargetAttributes = {
+					CECC74601A9D1D49003D89BF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CECC74751A9D1D4A003D89BF = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CECC74601A9D1D49003D89BF;
+					};
+				};
+			};
+			buildConfigurationList = CECC745C1A9D1D49003D89BF /* Build configuration list for PBXProject "WatchMePizza" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECC74581A9D1D49003D89BF;
+			productRefGroup = CECC74621A9D1D49003D89BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECC74601A9D1D49003D89BF /* WatchMePizza */,
+				CECC74751A9D1D4A003D89BF /* WatchMePizzaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECC745F1A9D1D49003D89BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECC746C1A9D1D49003D89BF /* Main.storyboard in Resources */,
+				CECC74711A9D1D49003D89BF /* LaunchScreen.xib in Resources */,
+				CECC746E1A9D1D49003D89BF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECC74741A9D1D4A003D89BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECC745D1A9D1D49003D89BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECC74691A9D1D49003D89BF /* ViewController.swift in Sources */,
+				CECC74671A9D1D49003D89BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECC74721A9D1D4A003D89BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECC747D1A9D1D4A003D89BF /* WatchMePizzaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CECC74781A9D1D4A003D89BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECC74601A9D1D49003D89BF /* WatchMePizza */;
+			targetProxy = CECC74771A9D1D4A003D89BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CECC746A1A9D1D49003D89BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECC746B1A9D1D49003D89BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CECC746F1A9D1D49003D89BF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECC74701A9D1D49003D89BF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CECC747E1A9D1D4A003D89BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CECC747F1A9D1D4A003D89BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECC74811A9D1D4A003D89BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WatchMePizza/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CECC74821A9D1D4A003D89BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WatchMePizza/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CECC74841A9D1D4A003D89BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatchMePizzaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchMePizza.app/WatchMePizza";
+			};
+			name = Debug;
+		};
+		CECC74851A9D1D4A003D89BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatchMePizzaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchMePizza.app/WatchMePizza";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECC745C1A9D1D49003D89BF /* Build configuration list for PBXProject "WatchMePizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECC747E1A9D1D4A003D89BF /* Debug */,
+				CECC747F1A9D1D4A003D89BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECC74801A9D1D4A003D89BF /* Build configuration list for PBXNativeTarget "WatchMePizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECC74811A9D1D4A003D89BF /* Debug */,
+				CECC74821A9D1D4A003D89BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CECC74831A9D1D4A003D89BF /* Build configuration list for PBXNativeTarget "WatchMePizzaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECC74841A9D1D4A003D89BF /* Debug */,
+				CECC74851A9D1D4A003D89BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECC74591A9D1D49003D89BF /* Project object */;
+}
