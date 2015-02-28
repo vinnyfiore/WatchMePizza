@@ -14,23 +14,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CECC74601A9D1D49003D89BF"
-               BuildableName = "WatchMePizza.app"
-               BlueprintName = "WatchMePizza"
+               BlueprintIdentifier = "CECC74931A9D1D70003D89BF"
+               BuildableName = "WatchMePizza WatchKit App.app"
+               BlueprintName = "WatchMePizza WatchKit App"
                ReferencedContainer = "container:WatchMePizza.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CECC74751A9D1D4A003D89BF"
-               BuildableName = "WatchMePizzaTests.xctest"
-               BlueprintName = "WatchMePizzaTests"
+               BlueprintIdentifier = "CECC74891A9D1D70003D89BF"
+               BuildableName = "WatchMePizza WatchKit Extension.appex"
+               BlueprintName = "WatchMePizza WatchKit Extension"
+               ReferencedContainer = "container:WatchMePizza.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CECC74601A9D1D49003D89BF"
+               BuildableName = "WatchMePizza.app"
+               BlueprintName = "WatchMePizza"
                ReferencedContainer = "container:WatchMePizza.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CECC74751A9D1D4A003D89BF"
-               BuildableName = "WatchMePizzaTests.xctest"
-               BlueprintName = "WatchMePizzaTests"
-               ReferencedContainer = "container:WatchMePizza.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CECC74601A9D1D49003D89BF"
-            BuildableName = "WatchMePizza.app"
-            BlueprintName = "WatchMePizza"
+            BlueprintIdentifier = "CECC74931A9D1D70003D89BF"
+            BuildableName = "WatchMePizza WatchKit App.app"
+            BlueprintName = "WatchMePizza WatchKit App"
             ReferencedContainer = "container:WatchMePizza.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/WatchMePizza">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CECC74601A9D1D49003D89BF"
-            BuildableName = "WatchMePizza.app"
-            BlueprintName = "WatchMePizza"
+            BlueprintIdentifier = "CECC74931A9D1D70003D89BF"
+            BuildableName = "WatchMePizza WatchKit App.app"
+            BlueprintName = "WatchMePizza WatchKit App"
             ReferencedContainer = "container:WatchMePizza.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CECC74931A9D1D70003D89BF"
+            BuildableName = "WatchMePizza WatchKit App.app"
+            BlueprintName = "WatchMePizza WatchKit App"
+            ReferencedContainer = "container:WatchMePizza.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/WatchMePizza">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CECC74601A9D1D49003D89BF"
-            BuildableName = "WatchMePizza.app"
-            BlueprintName = "WatchMePizza"
+            BlueprintIdentifier = "CECC74931A9D1D70003D89BF"
+            BuildableName = "WatchMePizza WatchKit App.app"
+            BlueprintName = "WatchMePizza WatchKit App"
             ReferencedContainer = "container:WatchMePizza.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CECC74931A9D1D70003D89BF"
+            BuildableName = "WatchMePizza WatchKit App.app"
+            BlueprintName = "WatchMePizza WatchKit App"
+            ReferencedContainer = "container:WatchMePizza.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

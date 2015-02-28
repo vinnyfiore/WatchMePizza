@@ -13,6 +13,13 @@
 		CECC746E1A9D1D49003D89BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECC746D1A9D1D49003D89BF /* Images.xcassets */; };
 		CECC74711A9D1D49003D89BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECC746F1A9D1D49003D89BF /* LaunchScreen.xib */; };
 		CECC747D1A9D1D4A003D89BF /* WatchMePizzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC747C1A9D1D4A003D89BF /* WatchMePizzaTests.swift */; };
+		CECC748F1A9D1D70003D89BF /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC748E1A9D1D70003D89BF /* InterfaceController.swift */; };
+		CECC74911A9D1D70003D89BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECC74901A9D1D70003D89BF /* Images.xcassets */; };
+		CECC74951A9D1D70003D89BF /* WatchMePizza WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = CECC74941A9D1D70003D89BF /* WatchMePizza WatchKit App.app */; };
+		CECC749D1A9D1D70003D89BF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECC749B1A9D1D70003D89BF /* Interface.storyboard */; };
+		CECC749F1A9D1D70003D89BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECC749E1A9D1D70003D89BF /* Images.xcassets */; };
+		CECC74A21A9D1D70003D89BF /* WatchMePizza WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CECC748A1A9D1D70003D89BF /* WatchMePizza WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CECC74AB1A9F8070003D89BF /* CoreLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC74AA1A9F8070003D89BF /* CoreLocationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +30,35 @@
 			remoteGlobalIDString = CECC74601A9D1D49003D89BF;
 			remoteInfo = WatchMePizza;
 		};
+		CECC74961A9D1D70003D89BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECC74591A9D1D49003D89BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECC74931A9D1D70003D89BF;
+			remoteInfo = "WatchMePizza WatchKit App";
+		};
+		CECC74A01A9D1D70003D89BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECC74591A9D1D49003D89BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECC74891A9D1D70003D89BF;
+			remoteInfo = "WatchMePizza WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CECC74A91A9D1D71003D89BF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CECC74A21A9D1D70003D89BF /* WatchMePizza WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CECC74611A9D1D49003D89BF /* WatchMePizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchMePizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +71,15 @@
 		CECC74761A9D1D4A003D89BF /* WatchMePizzaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchMePizzaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECC747B1A9D1D4A003D89BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CECC747C1A9D1D4A003D89BF /* WatchMePizzaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchMePizzaTests.swift; sourceTree = "<group>"; };
+		CECC748A1A9D1D70003D89BF /* WatchMePizza WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchMePizza WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECC748D1A9D1D70003D89BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECC748E1A9D1D70003D89BF /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		CECC74901A9D1D70003D89BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CECC74941A9D1D70003D89BF /* WatchMePizza WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchMePizza WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECC749A1A9D1D70003D89BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECC749C1A9D1D70003D89BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		CECC749E1A9D1D70003D89BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CECC74AA1A9F8070003D89BF /* CoreLocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreLocationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +97,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CECC74871A9D1D70003D89BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +112,8 @@
 			children = (
 				CECC74631A9D1D49003D89BF /* WatchMePizza */,
 				CECC74791A9D1D4A003D89BF /* WatchMePizzaTests */,
+				CECC748B1A9D1D70003D89BF /* WatchMePizza WatchKit Extension */,
+				CECC74981A9D1D70003D89BF /* WatchMePizza WatchKit App */,
 				CECC74621A9D1D49003D89BF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +123,8 @@
 			children = (
 				CECC74611A9D1D49003D89BF /* WatchMePizza.app */,
 				CECC74761A9D1D4A003D89BF /* WatchMePizzaTests.xctest */,
+				CECC748A1A9D1D70003D89BF /* WatchMePizza WatchKit Extension.appex */,
+				CECC74941A9D1D70003D89BF /* WatchMePizza WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +134,7 @@
 			children = (
 				CECC74661A9D1D49003D89BF /* AppDelegate.swift */,
 				CECC74681A9D1D49003D89BF /* ViewController.swift */,
+				CECC74AA1A9F8070003D89BF /* CoreLocationController.swift */,
 				CECC746A1A9D1D49003D89BF /* Main.storyboard */,
 				CECC746D1A9D1D49003D89BF /* Images.xcassets */,
 				CECC746F1A9D1D49003D89BF /* LaunchScreen.xib */,
@@ -112,6 +168,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CECC748B1A9D1D70003D89BF /* WatchMePizza WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CECC748E1A9D1D70003D89BF /* InterfaceController.swift */,
+				CECC74901A9D1D70003D89BF /* Images.xcassets */,
+				CECC748C1A9D1D70003D89BF /* Supporting Files */,
+			);
+			path = "WatchMePizza WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		CECC748C1A9D1D70003D89BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CECC748D1A9D1D70003D89BF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CECC74981A9D1D70003D89BF /* WatchMePizza WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				CECC749B1A9D1D70003D89BF /* Interface.storyboard */,
+				CECC749E1A9D1D70003D89BF /* Images.xcassets */,
+				CECC74991A9D1D70003D89BF /* Supporting Files */,
+			);
+			path = "WatchMePizza WatchKit App";
+			sourceTree = "<group>";
+		};
+		CECC74991A9D1D70003D89BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CECC749A1A9D1D70003D89BF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +214,12 @@
 				CECC745D1A9D1D49003D89BF /* Sources */,
 				CECC745E1A9D1D49003D89BF /* Frameworks */,
 				CECC745F1A9D1D49003D89BF /* Resources */,
+				CECC74A91A9D1D71003D89BF /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CECC74A11A9D1D70003D89BF /* PBXTargetDependency */,
 			);
 			name = WatchMePizza;
 			productName = WatchMePizza;
@@ -150,6 +244,39 @@
 			productReference = CECC74761A9D1D4A003D89BF /* WatchMePizzaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		CECC74891A9D1D70003D89BF /* WatchMePizza WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECC74A61A9D1D71003D89BF /* Build configuration list for PBXNativeTarget "WatchMePizza WatchKit Extension" */;
+			buildPhases = (
+				CECC74861A9D1D70003D89BF /* Sources */,
+				CECC74871A9D1D70003D89BF /* Frameworks */,
+				CECC74881A9D1D70003D89BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECC74971A9D1D70003D89BF /* PBXTargetDependency */,
+			);
+			name = "WatchMePizza WatchKit Extension";
+			productName = "WatchMePizza WatchKit Extension";
+			productReference = CECC748A1A9D1D70003D89BF /* WatchMePizza WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		CECC74931A9D1D70003D89BF /* WatchMePizza WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECC74A31A9D1D71003D89BF /* Build configuration list for PBXNativeTarget "WatchMePizza WatchKit App" */;
+			buildPhases = (
+				CECC74921A9D1D70003D89BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchMePizza WatchKit App";
+			productName = "WatchMePizza WatchKit App";
+			productReference = CECC74941A9D1D70003D89BF /* WatchMePizza WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +292,12 @@
 					CECC74751A9D1D4A003D89BF = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = CECC74601A9D1D49003D89BF;
+					};
+					CECC74891A9D1D70003D89BF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CECC74931A9D1D70003D89BF = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -183,6 +316,8 @@
 			targets = (
 				CECC74601A9D1D49003D89BF /* WatchMePizza */,
 				CECC74751A9D1D4A003D89BF /* WatchMePizzaTests */,
+				CECC74891A9D1D70003D89BF /* WatchMePizza WatchKit Extension */,
+				CECC74931A9D1D70003D89BF /* WatchMePizza WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +340,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CECC74881A9D1D70003D89BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECC74911A9D1D70003D89BF /* Images.xcassets in Resources */,
+				CECC74951A9D1D70003D89BF /* WatchMePizza WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECC74921A9D1D70003D89BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECC749D1A9D1D70003D89BF /* Interface.storyboard in Resources */,
+				CECC749F1A9D1D70003D89BF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -212,6 +365,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECC74AB1A9F8070003D89BF /* CoreLocationController.swift in Sources */,
 				CECC74691A9D1D49003D89BF /* ViewController.swift in Sources */,
 				CECC74671A9D1D49003D89BF /* AppDelegate.swift in Sources */,
 			);
@@ -225,6 +379,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CECC74861A9D1D70003D89BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECC748F1A9D1D70003D89BF /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +394,16 @@
 			isa = PBXTargetDependency;
 			target = CECC74601A9D1D49003D89BF /* WatchMePizza */;
 			targetProxy = CECC74771A9D1D4A003D89BF /* PBXContainerItemProxy */;
+		};
+		CECC74971A9D1D70003D89BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECC74931A9D1D70003D89BF /* WatchMePizza WatchKit App */;
+			targetProxy = CECC74961A9D1D70003D89BF /* PBXContainerItemProxy */;
+		};
+		CECC74A11A9D1D70003D89BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECC74891A9D1D70003D89BF /* WatchMePizza WatchKit Extension */;
+			targetProxy = CECC74A01A9D1D70003D89BF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +422,14 @@
 				CECC74701A9D1D49003D89BF /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		CECC749B1A9D1D70003D89BF /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECC749C1A9D1D70003D89BF /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -336,6 +516,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = WatchMePizza/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +528,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = WatchMePizza/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -386,6 +570,62 @@
 			};
 			name = Release;
 		};
+		CECC74A41A9D1D71003D89BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = WatchMePizza_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchMePizza WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		CECC74A51A9D1D71003D89BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WatchMePizza_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchMePizza WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		CECC74A71A9D1D71003D89BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WatchMePizza WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CECC74A81A9D1D71003D89BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "WatchMePizza WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,6 +651,22 @@
 			buildConfigurations = (
 				CECC74841A9D1D4A003D89BF /* Debug */,
 				CECC74851A9D1D4A003D89BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CECC74A31A9D1D71003D89BF /* Build configuration list for PBXNativeTarget "WatchMePizza WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECC74A41A9D1D71003D89BF /* Debug */,
+				CECC74A51A9D1D71003D89BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CECC74A61A9D1D71003D89BF /* Build configuration list for PBXNativeTarget "WatchMePizza WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECC74A71A9D1D71003D89BF /* Debug */,
+				CECC74A81A9D1D71003D89BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
